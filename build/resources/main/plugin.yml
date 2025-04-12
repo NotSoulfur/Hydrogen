@@ -1,0 +1,4 @@
+name: Hydrogen
+version: '1.0-SNAPSHOT'
+main: dev.soulfur.hydrogen.Hydrogen
+api-version: '1.21'
