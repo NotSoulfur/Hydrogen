@@ -1,0 +1,10 @@
+command:
+  gamemode:
+    usage: "Usage: /gamemode <mode> [player]"
+    invalid-mode: "Invalid gamemode provided!"
+    changed: "Your gamemode has been changed to %gamemode%."
+    changed-other: "Changed %player%'s gamemode to %gamemode%."
+    changed-by-other: "Your gamemode has been changed to %gamemode% by an admin."
+  no-permission: "You do not have permission to perform this command."
+  player-not-found: "Player not found."
+  player-only: "<red>Only players can execute this command!</red>"

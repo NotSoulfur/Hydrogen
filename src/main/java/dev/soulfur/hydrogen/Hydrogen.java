@@ -3,6 +3,7 @@ package dev.soulfur.hydrogen;
 import dev.soulfur.hydrogen.command.CommandManager;
 import dev.soulfur.hydrogen.config.ConfigManager;
 import dev.soulfur.hydrogen.database.DatabaseManager;
+import dev.soulfur.hydrogen.listeners.HungerListener;
 import dev.soulfur.hydrogen.listeners.PlayerJoin;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -34,6 +35,8 @@ public final class Hydrogen extends JavaPlugin {
         this.commandManager.registerCommands();
 
         getServer().getPluginManager().registerEvents(new PlayerJoin(this), this);
+        getServer().getPluginManager().registerEvents(new HungerListener(), this);
+
 
 
         getLogger().info("Hydrogen has been enabled!");
