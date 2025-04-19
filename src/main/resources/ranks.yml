@@ -1,0 +1,20 @@
+# ranks.yml
+ranks:
+  default:
+    # Default rank for players with no special privileges.
+    prefix: "&7[Member]"
+    # You can add additional properties if needed:
+    # permissions: []
+  moderator:
+    # Moderator rank with special permissions.
+    prefix: "&b[Mod]"
+    # Optional: list of permissions assigned to the rank.
+    # permissions:
+    #   - "chat.mute"
+    #   - "kick"
+  admin:
+    # Admin rank with full privileges.
+    prefix: "&c[Admin]"
+    # Optional: list of permissions or other metadata.
+    # permissions:
+    #   - "*"

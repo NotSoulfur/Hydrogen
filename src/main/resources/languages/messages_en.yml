@@ -8,3 +8,11 @@ command:
   no-permission: "You do not have permission to perform this command."
   player-not-found: "Player not found."
   player-only: "<red>Only players can execute this command!</red>"
+
+# Chat format used by the ChatModule.
+# Placeholders:
+#   <rank>    - to be replaced by the player's rank prefix.
+#   <player>  - to be replaced by the player's name.
+#   <message> - to be replaced by the sanitized message content.
+chat:
+  format: "<gray>[</gray><rank><gray>]</gray> <white><player>: <message></white>"
